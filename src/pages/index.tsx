@@ -68,7 +68,7 @@ const rows = [
 ];
   return (
     <main
-      className={`flex min-h-screen bg-slate-600 flex-col gap-4 items-center justify-center p-24 ${inter.className}`}
+      className={`flex min-h-screen bg-slate-100 flex-col gap-4 items-center justify-center p-24 ${inter.className}`}
     >
       
      
