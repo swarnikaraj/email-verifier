@@ -1,12 +1,11 @@
 
 import { Inter } from "next/font/google";
 import {  useState } from "react"
-const inter = Inter({ subsets: ["latin"] });
 import { Space, Table, Tag } from 'antd';
 import type { TableProps } from 'antd';
-import { Form, Input } from 'antd';
+import {  Input } from 'antd';
+const inter = Inter({ subsets: ["latin"] });
 
-type LayoutType = Parameters<typeof Form>[0]['layout'];
 export default function Home() {
   const [email,setEmail]=useState("")
  interface DataType {
